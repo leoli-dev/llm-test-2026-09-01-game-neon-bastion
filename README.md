@@ -2,7 +2,7 @@
 
 ![Neon Bastion gameplay: a first-person view across the sand arena, a glass structure ahead, an enemy just eliminated, HUD showing score, health and the shot cooldown](docs/hero.png)
 
-**▶ Play it: <https://leoli-dev.github.io/neon-bastion/>** — desktop browser, click **Deploy**, mouse to aim.
+**▶ Play it: <https://leoli-dev.github.io/llm-test-2026-09-01-game-neon-bastion/>** — desktop browser, click **Deploy**, mouse to aim.
 
 Neon Bastion is a self-contained, browser-based 4v4 arena FPS built with TypeScript, Vite, and Three.js. One human player and three AI teammates face four AI opponents in a symmetric procedural arena. There is no backend, CDN, external model, or downloaded game asset: gameplay, rendering, AI, map, and Web Audio are all local.
 
@@ -88,3 +88,9 @@ At the current revision, the suite contains 149 unit tests and 26 Playwright sce
 - Headless Chromium generally declines pointer lock. The browser suite verifies that it is requested and uses deterministic test hooks for aim and simulation control.
 - The production JavaScript bundle is about 636 kB before gzip (about 169 kB gzip), principally because Three.js is loaded with the renderer.
 - The AI is designed for clear, fair matches rather than competitive play against an expert human.
+
+## Experiment archive
+
+This repository is the original mlx-dspark / Qwen3.8-27B-8bit / pi experiment, started on **2026-09-01**. It was renamed from `neon-bastion` to `llm-test-2026-09-01-game-neon-bastion`; the original Git history is preserved. Other model implementations of the same task are documented separately.
+
+[Read this experiment in the LLM Test Reports archive](https://leoli-dev.github.io/llm-test-reports/#test=NEON-01) · [All raw Markdown reports](https://github.com/leoli-dev/llm-test-reports/tree/main/reports)
